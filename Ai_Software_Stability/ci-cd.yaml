@@ -40,7 +40,8 @@ jobs:
         docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
     - name: Building Docker Image
       run: |
-        docker build . --file Dockerfile --tag vi67159/endtoend
+        docker build . --file Dockerfile --tag vi67159/aistability
     - name: Pushing docker image
       run: |
-        docker push ${{secrets.DOCKER_USERNAME}}/endtoend
+        docker push ${{secrets.DOCKER_USERNAME}}/aistability
+        #vaishu
