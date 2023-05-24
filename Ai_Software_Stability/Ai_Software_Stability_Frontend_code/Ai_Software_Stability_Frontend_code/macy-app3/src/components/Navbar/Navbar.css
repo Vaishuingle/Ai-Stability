@@ -1,0 +1,38 @@
+.navigbar{
+    position:absolute;
+    margin-top: 80px;
+    width:20px;
+    background-color: #c83838;
+}
+.max
+{
+position: relative;
+width:10px;
+}
+.flex{
+    position:absolute;
+    display: flex;
+    width: 20px;
+}
+
+.navBar{
+    position: relative;
+    margin-top: -350px;
+    margin-left: 400px;
+    text-transform: uppercase;
+    display: inline-block;
+    /* display: flex; */
+}
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    position: absolute;
+    top:15px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-content:center;
+    
+}

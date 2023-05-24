@@ -1,0 +1,75 @@
+.modalBackground51 {
+    
+    right:-10px;
+    left:-420;
+    top:300px;
+    background-color: rgb(139, 201, 241);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:1
+  }
+  
+  .modalContainer5 {
+    width: 350px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: rgb(234, 236, 240);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+  }
+  
+  .modalContainer5 .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer5 .body5 {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .modalContainer5 .footer5 {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer5 .footer5 button {
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  #okBtn {
+    background-color: green;
+  }
+  
